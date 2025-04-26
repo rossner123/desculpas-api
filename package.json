@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"  // Adiciona este script para o comando de start
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.17.1",  // Usa a versão estável 4.x.x
-    "cors": "^2.8.5"  // Adiciona a dependência do CORS
+    "express": "^4.17.1",
+    "cors": "^2.8.5" 
   }
 }
