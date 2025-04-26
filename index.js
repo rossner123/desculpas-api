@@ -1,6 +1,9 @@
 const express = require('express')
+const cors = require('cors');
 const app = express()
 const fs = require('fs');
+
+app.use(cors());
 
 const desculpas = JSON.parse(fs.readFileSync('desculpas.json', 'utf-8'))
 
